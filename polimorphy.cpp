@@ -21,6 +21,15 @@ public:
 		cout << "Tulisan Joko" << endl;
 	}
 };
+class lia : public seseorang {
+	void pesan() {
+		cout << "Pesan dari Lia" << endl;
+	}
+
+
+};
+
+
 
 
 
