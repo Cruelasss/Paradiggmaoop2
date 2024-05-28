@@ -32,14 +32,14 @@ class lia : public seseorang {
 };
 
 int main() {
-	seseorang* orang;
+	seseorang* obyek;
 	joko a;
 	lia b;
 
-	orang = &a;
-	orang->pesan();
-	orang = &b;
-	orang->pesan();
-	//a.seseorang::pesan();	//Memanggil method yang berada di class orang tua
-	//b.seseorang::pesan();
-};
+	obyek= &a;
+	obyek->pesan();
+	obyek = &b;
+	obyek->pesan();
+	//a.seseorang::pesan();
+    return 0;
+}
