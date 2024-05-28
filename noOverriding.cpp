@@ -13,3 +13,9 @@ public:
 		cout << "Hallo saya Function dari base class";
 	}
 };
+int main() {
+	derivedClass a;
+	a.perkenalan();
+
+	return 0;
+}
